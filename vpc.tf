@@ -8,7 +8,7 @@ module "vpc" {
 
     subnets = [
         {
-            subnet_name        a   = "subnet-01"
+            subnet_name           = "subnet-01"
             subnet_ip             = "10.10.10.0/24"
             subnet_region         = "us-west1"
         },
